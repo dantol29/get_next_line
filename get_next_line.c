@@ -6,7 +6,7 @@
 /*   By: dtolmaco <dtolmaco@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 10:07:51 by dtolmaco          #+#    #+#             */
-/*   Updated: 2023/11/22 10:57:47 by dtolmaco         ###   ########.fr       */
+/*   Updated: 2023/11/22 12:07:31 by dtolmaco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -117,6 +117,7 @@ char	*get_next_line(int fd)
 // {
 // 	int	file;
 // 	char	*temp;
+//
 // 	(void)argc;
 // 	(void)argv;
 // 	file = open(argv[1], O_RDWR);
