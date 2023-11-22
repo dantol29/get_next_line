@@ -7,11 +7,10 @@
 </p>
 
 <p align="center">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/jdecorte-be/42-Get-next-line?color=lightblue" />
-	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/jdecorte-be/42-Get-next-line?color=critical" />
-	<img alt="Code language count" src="https://img.shields.io/github/languages/count/jdecorte-be/42-Get-next-line?color=yellow" />
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/jdecorte-be/42-Get-next-line?color=blue" />
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jdecorte-be/42-Get-next-line?color=green" />
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/dantol29/get_next_line?color=lightblue" />
+	<img alt="Code language count" src="https://img.shields.io/github/languages/count/dantol29/get_next_line?color=yellow" />
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dantol29/get_next_line?color=blue" />
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/dantol29/get_next_line?color=green" />
 </p>
 
 <h3 align="center">
@@ -54,4 +53,13 @@ and, when compiling your code, add the source files and the required flag:
 
 ```shell
 get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=<size>
+```
+## 📋 Testing
+
+You only have to edit the get_next_line.c file and uncomment the main function and headers inside it.
+Add your own .txt file to test the function.
+Then simply run this command (change "xx" with desired buffer size) :
+
+```shell
+gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.c && ./a.out
 ```
